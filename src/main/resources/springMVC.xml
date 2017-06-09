@@ -36,7 +36,7 @@
 
 
     <!--这个可以设置首页路径-->
-    <mvc:view-controller path="/" view-name="redirect:/welcome" />
+    <!--<mvc:view-controller path="/" view-name="redirect:/index" />-->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/view/"/>

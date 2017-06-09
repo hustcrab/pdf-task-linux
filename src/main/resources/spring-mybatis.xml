@@ -107,7 +107,7 @@
 
     <!--把事务控制在Service层-->
     <aop:config>
-        <aop:pointcut id="txPointcut" expression="execution(* com.pdf.service..*.*(..))"></aop:pointcut>
+        <aop:pointcut id="txPointcut" expression="execution(* com.pdf.service.*.*(..)))"></aop:pointcut>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"></aop:advisor>
     </aop:config>
 </beans>
